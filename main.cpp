@@ -37,7 +37,7 @@ aq::gigeVCamera camera2;   //Object of Gige camera2;
 aq::gigeVCamera camera3;   //Object of Gige camera3;
 aq::gigeVCamera camera4;   //Object of Gige camera4;
 CLog  my_log;
-bool b_log = true;
+bool b_log = false;
 bool model_dispose = false;
 bool mode2_dispose = false;
 bool mode3_dispose = false;
@@ -269,14 +269,14 @@ int main()
 	infer4.detach();
 	//pause();
 
-	std::thread infer5([&] { infer_thread_func(model5); });
-	infer5.detach();
-	std::thread infer6([&] { infer_thread_func(model6); });
-	infer6.detach();
-	std::thread infer7([&] { infer_thread_func(model7); });
-	infer7.detach();
-	std::thread infer8([&] { infer_thread_func(model8); });
-	infer8.detach();
+	//std::thread infer5([&] { infer_thread_func(model5); });
+	//infer5.detach();
+	//std::thread infer6([&] { infer_thread_func(model6); });
+	//infer6.detach();
+	//std::thread infer7([&] { infer_thread_func(model7); });
+	//infer7.detach();
+	//std::thread infer8([&] { infer_thread_func(model8); });
+	//infer8.detach();
 	*/
 
 	//******************************************************S*******************************************
