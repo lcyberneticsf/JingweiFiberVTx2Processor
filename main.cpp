@@ -50,6 +50,7 @@ int main()
 	using namespace Vsee;
 	using std::cout;
 	aq::Communicator communitator_;
+	int branck_dev = 0;
 
 	using MutexLock = std::lock_guard<std::mutex>;
 
